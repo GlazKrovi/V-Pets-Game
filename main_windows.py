@@ -230,7 +230,7 @@ def inventory() :
 
     global printed_foodPacks, printed_money, printed_medicines, printed_boosts, printed_experience
 
-    # Variables d'affichage : kolli
+    # Variables d'affichage : 
     printed_foodPacks.set(foodPacks) 
     printed_money.set(money) 
     printed_medicines.set(medicines) 
@@ -520,7 +520,7 @@ def feeding():
         appetite += 40
     printed_appetite.set(appetite) # mis a jour de l'affichage
 
-def options_function(): # koll
+def options_function(): 
     """Affiche le menu des options, permet ainsi de re-initialiser le jeu pour recommencer,
     ou bien de sauvegarder ses donnees
     
@@ -582,7 +582,7 @@ def gaming():
     window.image_recup = image_recup # préviens les pertes d'image
 
     label_checkStrip = tk.Label(window, height=12, width=2, relief=tk.RAISED, bg='grey') # init en gris, change 
-    # koll dimension
+  
     def chooseCorrectAnswer() :
         """Choisi quelle reponse sera la bonne ce round-ci"""
         nonlocal possible_answers, correct_answer
@@ -844,7 +844,7 @@ bouton_options = tk.Button(window,
                         fg='white', 
                         font=('Verdana', 14), 
                         bg='grey', 
-                        command=options_function) # kolla # print(money, foodPacks, medicines, boosts)
+                        command=options_function) 
 
 """manual"""
 bouton_manual = tk.Button(window,
