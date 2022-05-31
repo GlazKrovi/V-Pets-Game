@@ -2,5 +2,5 @@
 
 ### Virtual pet / Tamagotchi-like game project (python, tkinter)
  
-Game in which a cat is handled like a tamagotchi.
-Works with python and its tkinter and random library
+Game based on the old Tamagotchi's gameplay ;
+Works with python and his 'tkinter' and 'random' libraries.

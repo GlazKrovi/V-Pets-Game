@@ -534,8 +534,8 @@ def options_function():
     height_optionsButtons, width_optionsButtons = 1, 15
 
     # Labels sections
-    label_section_reset = tk.Label(window, text="Reset of saving data :", height=1, bg='grey',
-                        width=1, relief=tk.FLAT, fg='white', font=('Calibri', 10))
+    label_section_reset = tk.Label(window, text="Want to reset your saving-data?", height=1, bg='grey',
+                        width=1, relief=tk.FLAT, fg='white', font=('Calibri', 8))
 
     # Button restart
     button_reInit = tk.Button(window, text="Reset your save ?", height=height_optionsButtons, 
